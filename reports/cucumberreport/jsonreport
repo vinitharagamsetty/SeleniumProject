@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-24T17:18:28.084Z",
+        "line": 11,
+        "name": "To check whether user is anble to login",
+        "description": "",
+        "id": "to-test-the-orange-hrm-application;to-check-whether-user-is-anble-to-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19006000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url",
+            "match": {
+              "location": "com.stepdefinition.LoginStep.launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"vrroyal1525@gmail.com\" and \"Amma1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vrroyal1525@gmail.com\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Amma1234\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.stepdefinition.LoginStep.enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1571000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clik on login button",
+            "match": {
+              "location": "com.stepdefinition.LoginStep.clik_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tc01"
+          }
+        ]
+      }
+    ],
+    "name": "To test the Orange HRM Application",
+    "description": "",
+    "id": "to-test-the-orange-hrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/testCase.feature",
+    "tags": []
+  }
+]

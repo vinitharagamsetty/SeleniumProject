@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29260" started-at="2020-08-19T14:41:38Z" finished-at="2020-08-19T14:42:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29260" started-at="2020-08-19T14:41:38Z" finished-at="2020-08-19T14:42:07Z">
+      <class name="com.TestCase.LoginTestCase">
+        <test-method status="PASS" signature="init_browser()[pri:0, instance:com.TestCase.LoginTestCase@a1cdc6d]" name="init_browser" is-config="true" duration-ms="16709" started-at="2020-08-19T14:41:38Z" finished-at="2020-08-19T14:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_browser -->
+        <test-method status="PASS" signature="OrangehrmLogin()[pri:1, instance:com.TestCase.LoginTestCase@a1cdc6d]" name="OrangehrmLogin" duration-ms="8340" started-at="2020-08-19T14:41:55Z" finished-at="2020-08-19T14:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangehrmLogin -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.TestCase.LoginTestCase@a1cdc6d]" name="closebrowser" is-config="true" duration-ms="3693" started-at="2020-08-19T14:42:03Z" finished-at="2020-08-19T14:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.TestCase.LoginTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
